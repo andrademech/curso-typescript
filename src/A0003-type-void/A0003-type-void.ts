@@ -12,10 +12,10 @@ const person = {
     console.log('====================================');
     console.log(this.name + ' ' + this.surname);
     console.log('====================================');
-  }
-}
+  },
+};
 
-noReturn('Herberth', 'Andrade')
-person.showName()
+noReturn('Herberth', 'Andrade');
+person.showName();
 
-export { person }
+export { person };

@@ -1,5 +1,5 @@
 function showMessage(msg: any) {
-  return msg
+  return msg;
 }
 
 console.log(showMessage([1, 2, 3]));
